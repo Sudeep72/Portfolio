@@ -16,6 +16,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AnimatedCursor from "react-animated-cursor";
+
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,8 +44,20 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
+        <AnimatedCursor 
+      color="255,255,255"
+      innerSize={8}
+      outerSize={35}
+      innerScale={0}
+      outerScale={1.7}//0
+      outerAlpha={0}
+      outerStyle={{
+        border: '3px solid #fff'
+      }}
+      />
       </div>
     </Router>
+    
   );
 }
 
