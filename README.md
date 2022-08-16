@@ -3,7 +3,7 @@
   <a href="http://sudeepdev.software/" target="_blank">sudeep.dev</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img3.png" />
+  <img alt="Demo" src="./Images/readme-img2.png" />
 </div>
 
 <br/>
