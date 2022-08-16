@@ -2,12 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+//import leaf from "../../Assets/Projects/leaf.png";
+//import emotion from "../../Assets/Projects/emotion.png";
+//import editor from "../../Assets/Projects/codeEditor.png";
+//import chatify from "../../Assets/Projects/chatify.png";
+//import suicide from "../../Assets/Projects/suicide.png";
+//import bitsOfCode from "../../Assets/Projects/blog.png";
+import brainy from "../../Assets/Projects/brainy.png";
+import music from "../../Assets/Projects/music.png";
+import kuiz from "../../Assets/Projects/kuiz.png";
+import weather from "../../Assets/Projects/weather.png";
+import lap from "../../Assets/Projects/lapportt.png";
 
 function Projects() {
   return (
@@ -21,7 +26,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/*<Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -30,9 +35,65 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
+  </Col>*/}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={brainy}
+              isBlog={false}
+              title="Brainy Hub"
+              description="Brainy Hub is an interactive Quiz website that helps people spending their time 
+              in a useful way.It is made using React Js."
+              ghLink="https://github.com/Sudeep72/Kuizz"
+              demoLink="https://kui-z.tech"
+            />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kuiz}
+              isBlog={false}
+              title="Kuiz"
+              description="Kuiz is a simple quiz website done using HTML, CSS, and Js."
+              ghLink="https://github.com/Sudeep72/kuiz"
+              demoLink="https://kuiz.kui-z.tech"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={music}
+              isBlog={false}
+              title="Truffle Music"
+              description="Truffle Music is a discord music bot used to hear songs with a number of commands."
+              ghLink="https://github.com/Sudeep72/Truffle-music"
+              //demoLink="https://kui-z.tech"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather}
+              isBlog={false}
+              title="Weather Forecast"
+              description="Weather Forecast is a interactive website that shows the weather of the place when 
+              you search it.It is made using React Js."
+              ghLink="https://github.com/Sudeep72/Weather"
+              //demoLink="https://kui-z.tech"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lap}
+              isBlog={false}
+              title="Portfolio"
+              description="Portfolio an online representation of work you have created, as well as your skills and experiences.
+              It is made by React Js."
+              ghLink="https://github.com/Sudeep72/Portfolio"
+              demoLink="https://sudeepdev.software"
+            />
+          </Col>
+
+         {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -86,7 +147,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+</Col>*/}
         </Row>
       </Container>
     </Container>
