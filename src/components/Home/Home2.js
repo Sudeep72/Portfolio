@@ -34,7 +34,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Cybercrime and Security and also Hacking.
+                  Cyber Crimes and Security and also Hacking.
                 </b>
               </i>
               <br />
@@ -89,7 +89,7 @@ function Home2() {
             </li>
               {/*<li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/Sudeep15765761"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -119,7 +119,7 @@ function Home2() {
               </li>
               {/*<li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/sudeep__79/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

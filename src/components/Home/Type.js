@@ -10,6 +10,7 @@ function Type() {
           "Deep Learning Engineer",
           "MERN Stack Developer",
           "Open Source Contributor",
+          "Cyber Security Enthusiast"
         ],
         autoStart: true,
         loop: true,

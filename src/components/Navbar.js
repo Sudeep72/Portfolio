@@ -6,7 +6,10 @@ import logo from "../Assets/logo1.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { SiBuymeacoffee } from "react-icons/si"
 //import { ImBlog } from "react-icons/im";
+
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -92,10 +95,20 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                href="https://www.buymeacoffee.com/sudeep7217u"
+                rel="noreferrer"
+
+                target="_blank"
+              >
+                <SiBuymeacoffee style={{ marginBottom: "2px" }} /> Endow
+              </Nav.Link>
+        </Nav.Item>
+
             {/*<Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
+                href="https://blogs.**websitename**
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
@@ -109,7 +122,7 @@ function NavBar() {
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <AiFillStar style={{ fontSize: "1.1em",color: "yellow" }} />
               </Button>
             </Nav.Item>
           </Nav>

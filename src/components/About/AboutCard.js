@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sudeep </span>
             from <span className="purple"> Tamil Nadu, India.</span>
             <br />I am a junior pursuing BE Computer Science and Engineering in College of Engineering
-            Guindy,Anna University,Chennai.
+            Guindy, Anna University, Chennai.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -21,7 +21,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Techy Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
