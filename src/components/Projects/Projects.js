@@ -38,7 +38,7 @@ function Projects() {
               imgPath={kuiz}
               isBlog={false}
               title="Kuiz"
-              description="Kuiz is a simple quiz website done using HTML, CSS, and Js."
+              description="Kuiz is a simple quiz website done using HTML, CSS, and Js.**There may be some error with the authentication due to plan expiries..Configured webpage only for laptops**"
               ghLink="https://github.com/Sudeep72/kuiz"
               demoLink="https://kuiz.kui-z.tech"
             />
