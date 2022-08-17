@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Weather Forecast"
               description="Weather Forecast is a interactive website that shows the weather of the place when 
-              you search it.It is made using React Js.**Aligns only for Laptop screens,soon for Mobiles✌️**"
+              you search it.It is made using React Js.**Aligns only for Laptop screens, soon for Mobiles✌️**"
               ghLink="https://github.com/Sudeep72/Weather"
               demoLink="https://weather.sudeepdev.software"
             />
